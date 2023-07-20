@@ -21,7 +21,7 @@
       function send_request() {
          let val = document.getElementById("input").value;
          // ^t........N!?
-         fetch(`/LOTR/arwen/flag.php?flag=${val}`)
+         fetch(`/flag.php?flag=${val}`)
             .then(res => res.text())
             .then(res => {
                const res_json = JSON.parse(res);
