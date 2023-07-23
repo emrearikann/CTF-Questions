@@ -9,7 +9,7 @@
 </head>
 
 <body>
-   <article>
+   <article style="margin-top: 8rem;">
       <div class="container" style="width: 20rem; text-align: center;">
          <label style="padding-bottom: .5rem">Valid Input: </label>
          <input id="input" type="text" autocomplete="off" placeholder="Valid" />
